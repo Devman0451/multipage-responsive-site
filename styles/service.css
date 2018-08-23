@@ -1,0 +1,8 @@
+@media screen and (min-width: 800px) {
+    .payment-info {
+        padding: 5rem 10rem 5rem 12rem;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: 1fr 1fr;
+    }
+}

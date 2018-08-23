@@ -1,0 +1,40 @@
+.content-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.product-h1, .product-h2 {
+    text-align: center;
+    color: white;
+}
+
+.product-h1 {
+    font-size: 4rem;
+    font-weight: 600;
+}
+
+.content-img {
+    height: 600px;
+}
+
+.product-image7 {
+    background: url(../img/product8.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.product-image8 {
+    background: url(../img/product9.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.product-image9 {
+    background: url(../img/product10.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}

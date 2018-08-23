@@ -1,0 +1,114 @@
+.contact-info {
+    margin: 2rem;
+    width: 100%;
+}
+
+.contact-info h1 {
+    font-size: 1.3rem;
+    font-weight: 600;
+    margin-bottom: 1rem;
+}
+
+.contact-info-list ul {
+    line-height: 1;
+    margin: 0 0 3rem 2rem;
+    color: var(--faded-text-color);
+}
+
+.contact-info-list ul li {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+}
+
+.contact-info-list ul li span {
+    margin-left: 1rem;
+    font-size: 1rem;
+}
+
+.contact-info-list ul .li1{
+    list-style-image: url(../img/map-marker-alt.svg);
+}
+
+.contact-info-list ul .li2{
+    list-style-image: url(../img/phone.svg);
+}
+
+.contact-info-list ul .li3{
+    list-style-image: url(../img/envelope.svg);
+}
+
+.contact-info-list ul .li4{
+    list-style-image: url(../img/globe.svg);
+}
+
+.contact-form-section h1 {
+    margin-bottom: 2rem;
+}
+
+.contact-form input, textarea {
+    display: block;
+    padding: 1rem;
+    width: 100%;
+    font-size: 1rem;
+    margin-bottom: 1rem;
+}
+
+.contact-form textarea {
+    font-size: 1.4rem;
+}
+
+.contact-form input[type="submit"] {
+    width: auto;
+    margin: 2rem auto 0 0;
+    padding: .8rem 1.2rem;
+    font-size: 1.2rem;
+    background: var(--primary-color);
+    border: 2px solid var(--primary-color);
+    color: white;
+    transition: 300ms;
+}
+
+.contact-form input:hover, textarea:focus {
+    outline: none;
+}
+
+.contact-form input:focus, textarea:focus {
+    outline: none;
+    border: 1px solid var(--primary-color);
+    transition: 300ms;
+}
+
+.contact-form input[type="submit"]:hover {
+    opacity: 0.8;
+}
+
+@media screen and (min-width: 800px) {
+    .contact-info {
+        margin: 5rem auto;
+        display: flex;
+        justify-content: center;
+        align-items: top;
+    }
+
+    .contact-form-section {
+        margin-left: 8rem;
+        margin-right: 1rem;
+        width: 36rem;
+    }
+
+    .contact-form input[name="first"],
+    .contact-form input[name="last"] {
+        display: inline-block;
+        width: 17.3rem;
+    }
+
+    .contact-form input[name="first"] {
+        margin-right: 1rem;
+    }
+}
+
+
+#map {
+    height: 400px;
+    width: 100%;
+}
